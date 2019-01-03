@@ -1,0 +1,137 @@
+@charset "utf-8";
+
+html, body{
+    padding: 0;
+    margin: 0 auto;
+	background-color: #003366;
+}
+
+p{
+	padding: 0px;
+	margin: 0 auto;
+}
+
+a:link, a:visited, a:hover, a:active {
+	color: #CCCC99;
+	text-decoration: none;
+}
+
+#lvl1 {
+	margin: 0 auto;
+	width: 100%;
+	background-color: #003366;
+	top: 0px;
+	left: 0px;
+}
+
+.linktext{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 24px;
+	text-align: right;
+	color: #CCCC99;
+	margin-top: 50px;
+	padding-right: 20px;
+}
+
+#pin{
+	position: relative;
+	float: left;
+	top: 0px;
+	left: 0px;
+	color: #CCCCC9;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	width: 300px;
+}
+
+.pintext{
+	font-size: 30px;
+	text-align: center;
+	width:100%;
+	padding-bottom: 16px;
+}
+
+.resumebutton{
+	background-color: #CCCCC9;
+	border: 1px solid #CCCCC9;
+	border-radius: 4px;
+	color: #003366;
+	position: relative;
+	top: 33px;
+}
+
+#lvl2{
+	position: relative;
+	margin-left: 300px;
+	margin-top: 50px;
+	max-width: 75%;
+	background-color: #FFFFFF;
+}
+
+#lvltext{
+	position: relative;
+	max-width: 97%;
+	height: auto;
+}
+
+.titletext{
+	text-align: center;
+	color: #003366;
+	font-size: 45px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	padding-top: 25px;
+}
+
+.quotetext{
+	text-align: center;
+	color: #003366;
+	font-size: 16px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	font-style: italic;
+	padding-top: 3px;
+	padding-bottom: 30px;
+}
+
+.sectiontext{
+	text-align: left;
+	color: #003366;
+	font-size: 36px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	padding-left: 25px;
+	padding-top: 20px;
+}
+
+.bodytext{
+	text-align: left;
+	color: #003366;
+	font-size: 18px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	padding-left: 25px;
+	padding-bottom: 15px;
+}
+
+.expic{
+	position: relative;
+	margin-left: 25px;
+	border: 1px solid #003366;
+	top: 0px;
+	left: 0px;
+}
+
+#cattags{
+	display: inline-block;
+	position: relative;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-left: 25px;
+}
+
+.catbutton{
+	background-color: #CCCCC9;
+	border: 1px solid #003366;
+	position: relative;
+	font-size: 12px;
+	display: inline-block;
+	color: #003366;
+	padding-left: 3px;
+	padding-right: 3px;
+}
